@@ -1,0 +1,14 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo "Installing Dependencies"
+
+- script: echo "Building Application"
+
+- script: echo "Running Tests"
+
+- script: echo "Deploying Application"
